@@ -1,190 +1,58 @@
-[.branding#logo]
-image::logo3.png[Logo Placeholder, align="left" ]
+# Project Stages
 
-:last-update-label!:
+## Mobile app business analysis stages details:
 
+### 1. **Project Initiation:**
+   - **Roles Involved:** Project Manager, Business Analyst, Customer Success Manager.
+   - **Inputs:** Client’s initial idea, business goals, and preliminary requirements.
+   - **Outputs:** Project Charter, Initial Stakeholder Meeting.
 
-= Project Charter
-:toc:
-:toc-placement!:
+### 2. **Requirements Gathering:**
+   - **Roles Involved:** Business Analyst, Project Manager, Customer Success Manager.
+   - **Inputs:** Client meetings, existing documentation, market research.
+   - **Outputs:** Business Requirements Document (BRD), User Stories.
 
-:imagesdir: ./images
-:icons: font
+### 3. **Analysis:**
+   - **Roles Involved:** Business Analyst, Data Analyst, Technical Lead.
+   - **Inputs:** Business Requirements Document, technical feasibility studies.
+   - **Outputs:** Functional Specification Document (FSD), Technical Analysis Report.
 
-++++
-<style>
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
-    background-color: #ffffff;
-    color: #000;
-}
+### 4. **Design:**
+   - **Roles Involved:** UX Designer, Graphic Designer, Technical Lead.
+   - **Inputs:** Functional Specification Document, client feedback, design best practices.
+   - **Outputs:** Wireframes, Mockups, Design Specification Document.
 
-/* Header Styles */
-h1, h2, h3, h4, h5, h6 {
-    color: #20c997;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
+### 5. **Technical Specification:**
+   - **Roles Involved:** Technical Lead, DevOps Engineer, Mobile App Developers.
+   - **Inputs:** Design Specification Document, Functional Specification Document.
+   - **Outputs:** Technical Specification Document (TSD), System Architecture Diagram.
 
-/* Branding Section Styles */
-.branding {
-}
+### 6. **Prototype Development:**
+   - **Roles Involved:** Mobile App Developers, UX Designer, Graphic Designer.
+   - **Inputs:** Technical Specification Document, Wireframes, Mockups.
+   - **Outputs:** Working Prototype, Prototype Review Meeting.
 
-.branding img {
-    height: 50px; /* or whatever height you prefer */
-    width: auto; /* maintains aspect ratio */
-    display: block;
-    margin-right: 0; /* aligns the image to the left */
-}
+### 7. **Review and Feedback:**
+   - **Roles Involved:** Project Manager, Business Analyst, Customer Success Manager, Client.
+   - **Inputs:** Working Prototype, client feedback.
+   - **Outputs:** Review Meeting Minutes, Updated Requirements if necessary.
 
-.brandingX:after {
-    content: "";
-    display: block;
-    border-bottom: 1px solid #ccc; /* Adjust color as needed */
-    margin-top: 10px; /* Adjust margin as needed */
-}
+### 8. **Quality Assurance (Pre-Documentation):**
+   - **Roles Involved:** Quality Assurance Engineer, Technical Lead.
+   - **Inputs:** Working Prototype, Technical Specification Document.
+   - **Outputs:** QA Report, List of Bugs and Improvements.
 
-/* Table of Contents Styles */
-#toc {
-    background-color: #ffffff;
-    border: 1px solid #2257bf;
-    padding: 10px;
-    margin-bottom: 20px;
-}
+### 9. **Documentation:**
+   - **Roles Involved:** Technical Writer, Business Analyst, Technical Lead.
+   - **Inputs:** All preceding documents, QA Report, Working Prototype.
+   - **Outputs:** Final Business Analytical Documentation, Technical Design Documentation.
 
-/* List Styles */
-ul, ol {
-    margin-bottom: 20px;
-}
+### 10. **Client Approval and Handoff:**
+    - **Roles Involved:** Project Manager, Customer Success Manager, Client.
+    - **Inputs:** Final Documentation, Client Feedback.
+    - **Outputs:** Client Approval, Project Handoff.
 
-/* Table Styles */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-
-th, td {
-    border: 1px solid #2257bf;
-    padding: 8px;
-    text-align: left;
-}
-
-/* Image Styles */
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-/* Footer Styles */
-.footer {
-    background-color: #eeeeee;
-    border-top: 1px solid #005a9c;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Approval Section Styles */
-.approval {
-    background-color: #ffffff;
-    border: 1px solid #2257bf;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-</style>
-++++
-
-
-
-[.branding]
-Project Title:: HealthyMe App Project
-Project Start Date:: January 1, 2024
-Projected End Date:: December 1, 2024
-Budget Information:: Estimated Budget: $50,000
-
-== Project Objectives
-To develop a user-friendly mobile app that allows users to track their diet and exercise routines, aiming to launch by December 1, 2024.
-
-== Scope Description
-The app will include features for logging meals, tracking exercise, setting health goals, and viewing progress over time. Users can also share their achievements on social media and engage in a community forum.
-
-== Key Stakeholders
-* Project Team
-* Client
-* End-Users
-* Investors
-
-== Project Manager
-* Name, contact information
-
-== Major Deliverables
-* Mobile App (iOS and Android Versions)
-* User Manual
-* Project Documentation including Business Analytical and Technical Design Documentation
-
-== Acceptance Criteria
-* The app should be easy to navigate and use without requiring a steep learning curve.
-* The app should be delivered within the estimated budget and by the projected end date.
-* The app should meet all the functional requirements as agreed upon with the client.
-
-== Constraints
-* Budget Limit: $50,000
-* Project Deadline: December 1, 2024
-
-== Assumptions
-* Availability of all necessary resources on time.
-* The project team will have continuous access to the client for clarifications and feedback.
-
-== Risks
-* Unanticipated technical challenges that may delay development.
-* Fluctuations in project costs due to unforeseen market conditions.
-
-== Communication Plan
-* Weekly status updates via email.
-* Monthly review meetings with the client and stakeholders.
-* Emergency communication via phone.
-
-== Approval
-* Signatures of the Client, Project Manager, and other key stakeholders to officially authorize the project.
-
-The undersigned acknowledge they have reviewed the Project Charter Document for the HealthyMe App Project and agree with the information presented within this document. 
-
-[cols="2,2,2,2", options="header"]
-|===
-| Name
-| Title
-| Signature
-| Date
-
-| 
-| 
-| 
-| 
-
-| 
-| 
-| 
-| 
-
-| 
-| 
-| 
-| 
-
-| 
-| 
-| 
-| 
-|===
-
-Any changes to the requirements specified in this document will be handled through the change control process.
+### 11. **Post-Documentation Review:**
+    - **Roles Involved:** Project Manager, Entire Project Team.
+    - **Inputs:** Entire Project Documentation, Project Experience.
+    - **Outputs:** Lessons Learned Document, Project Closure Report.
